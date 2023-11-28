@@ -5,9 +5,12 @@ import aaseupkg/engine as aaseu
 import strformat
 import cligen
 
-proc aaseu_main(version: bool = false,encode:bool = false, dead_text = false, filename: string, outfile: string = "") =
+proc aaseu_main(version: bool = false,encode:bool = false, dead_text = false, filename: string="", outfile: string = "") =
   if version:
-    echo "v0.1.0 - Useless Ucalyptus"
+    echo "Aaseu v0.1.0 - Useless Ucalyptus"
+    return
+  if filename == "":
+    echo "Missing these REQUIRED parameters:\n  filename\nRun command with --help for more details."
     return
   if dead_text and not encode:
     echo "ERROR: Cannot add dead text when decoding."
