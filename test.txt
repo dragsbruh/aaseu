@@ -1,0 +1,12 @@
+Hello world 😉😉
+-_-
+;)
+
+Encode this file by using:
+./aaseu.exe --filename test.txt --outfile encoded.txt --encode
+
+and then decode by using:
+./aaseu.exe --filename encoded.txt
+
+if you did that and see this text in the terminal, congrats!
+wow
