@@ -1,6 +1,7 @@
 # AASEU
 
-> An Absolutely Stupid Encoding Utility v0.1.0
+> An Absolutely Stupid Encoding Utility\
+> v0.1.0 - Useless Ucalyptus
 
 ## About
 
